@@ -1,3 +1,4 @@
+//Modified
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 import { styWrapper } from '../HelloSection/styles';
@@ -31,7 +32,7 @@ function FooterSection({ isInvitation }) {
           <div className="row copyright">
             <div className="col-md-12 text-center">
               <p>
-                <small className="block">&copy; 2020 Dinda & Indra Wedding. All Rights Reserved.</small>
+                <small className="block">Created with ❤️ by MIPAN SMANEGA Wedding Organizer. All Rights Reserved.</small>
                 <small className="block">
                   Covid-19 Icon by{' '}
                   <a href="https://www.flaticon.com/packs/covid-protection-measures-5" target="_blank" rel="noreferrer">

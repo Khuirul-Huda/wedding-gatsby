@@ -1,13 +1,17 @@
+/**
+ * Changed Image and Name + Date
+ */
+
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
-import Bride from '@assets/images/p-dinda-2.jpg';
-import Groom from '@assets/images/p-indra.jpg';
+import Luna from '@assets/images/luna-personal.jpg';
+import Daffa from '@assets/images/daffa-personal.jpg';
 
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
-  const finalSubtitle = isInvitation ? '03 Oktober 2020, HARRIS Hotel Sentraland, Semarang' : 'Sabtu, 03 Oktober 2020';
+  const finalSubtitle = isInvitation ? '6 Februari 2023, SMAN 1 Ambarawa' : 'Senin, 06 Februari 2023';
 
   return (
     <Fragment>
@@ -27,12 +31,12 @@ function HelloSection({ isInvitation }) {
           <div className="couple-wrap">
             <div className="couple-half">
               <div className="groom">
-                <img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
+                <img src={Luna} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-groom">
-                <h3 className="main-font">Dinda Saraswati, S.I.Kom.</h3>
+                <h3 className="main-font">Ariesta Luna Jelita Putri S.Si</h3>
                 <p className="parent-name parent-name__top">
-                  Putri Bapak Totok Somo Dipoyono <br />& Ibu Setyo Listiani
+                  Putri Bapak Rio Noviansyach Sutomo S.Pd<br />& Ibu Revalia Fadhilla S.Psi
                 </p>
               </div>
             </div>
@@ -44,12 +48,12 @@ function HelloSection({ isInvitation }) {
             </div>
             <div className="couple-half">
               <div className="bride">
-                <img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
+                <img src={Daffa} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-bride">
-                <h3 className="main-font">Indra Kusuma, S.Kom.</h3>
+                <h3 className="main-font">Naufal Daffa Putra Fadhila S.Si</h3>
                 <p className="parent-name">
-                  Putra Bapak Bunari <br />& Ibu Suratun
+                  Putra Bapak Rahmat Anwar Najib Lc. MA <br />& Ibu Aisyha Whinandha Putry S.Pd
                 </p>
               </div>
             </div>

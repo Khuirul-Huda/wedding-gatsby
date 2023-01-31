@@ -1,3 +1,5 @@
+//modified
+
 import React, { useState, Fragment } from 'react';
 import useGuestData from '@/hooks/useGuestData';
 
@@ -13,7 +15,7 @@ function GenerateLink() {
 
   const { data, loading } = useGuestData();
 
-  const URL = `https://thekusuma.com?to=${encodeURIComponent(name)}`;
+  const URL = `https://wedding.mipansmane.ga/?to=${encodeURIComponent(name)}`;
 
   const handleChange = (e) => {
     setType(parseInt(e.target.value, 10));
@@ -113,7 +115,7 @@ function GenerateLink() {
               <tbody>
                 {data.map((d, index) => {
                   const offlineInvitation = isInvitation ? `&type=invitation&code=${d.code}` : '';
-                  const mapURL = `https://thekusuma.com?to=${encodeURIComponent(d.name)}${offlineInvitation}`;
+                  const mapURL = `https://wedding.mipansmane.ga/?to=${encodeURIComponent(d.name)}${offlineInvitation}`;
                   return (
                     <tr>
                       <td>{index + 1}</td>
