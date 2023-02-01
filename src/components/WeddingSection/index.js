@@ -1,3 +1,4 @@
+//Modified
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
@@ -10,7 +11,7 @@ function WeddingSection({ isInvitation }) {
     return (
       <Fragment>
         <div className="col-md-8 col-md-offset-4">
-          <WeddingInfoBox title="Akad Nikah" time="08.00 WIB (Live di Instagram)" date="Sabtu, 03 Oktober 2020" />
+          <WeddingInfoBox title="Akad Nikah" time="08.15 WIB (Live di Lokasi)" date="Senin, 06 Februari 2023" />
         </div>
         <ButtonLive />
       </Fragment>
@@ -36,14 +37,14 @@ function WeddingSection({ isInvitation }) {
                 <WeddingInfoBox
                   title="Akad Nikah"
                   time="Akan dilaksanakan pagi hari "
-                  date="Sabtu, 03 Oktober 2020"
-                  description="Orange Ballroom <br/>HARRIS Hotel Sentraland, Semarang"
+                  date="Senin, 06 Februari 2023"
+                  description="Masjid Al-Ikhsan <br/>SMAN 1 Ambarawa"
                 />
                 <WeddingInfoBox
                   title="Syukuran Pernikahan"
                   time="Sesuai jadwal undangan di e-ticket "
-                  date="Sabtu, 03 Oktober 2020"
-                  description="Orange Ballroom <br/>HARRIS Hotel Sentraland, Semarang"
+                  date="Senin, 06 Februari 2023"
+                  description="Ruang XII MIPA 1 <br/>SMAN 1 Ambarawa"
                 />
               </div>
             )}
