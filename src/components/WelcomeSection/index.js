@@ -1,3 +1,4 @@
+// TODO: Change image 
 import React, { Fragment, useState } from 'react';
 import { object, string, bool, func } from 'prop-types';
 import { Link } from 'gatsby';
@@ -14,7 +15,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
   const [alreadyDownloadData, setAlreadyDownloadData] = useState(false);
 
   const handleScrollTo = () => {
-    /** scroll into detail view */
+    
     const element = document.getElementById('fh5co-couple');
     element.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
   };
@@ -70,7 +71,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
             <div className="col-md-8 col-md-offset-2 text-center">
               <img src={WeddingImg} alt="wedding-dinda-indra" />
               <h4 className="sub-title">The Wedding of</h4>
-              <h1 className="title">Dinda &amp; Indra</h1>
+              <h1 className="title">Daffa &amp; Luna</h1>
               <div className={isAnonymGuest ? 'margin__bottom' : ''}>
                 <CountContainer />
               </div>
