@@ -1,3 +1,4 @@
+//modified
 import React from 'react';
 import QRCode from 'react-qr-code';
 import { object } from 'prop-types';
@@ -51,7 +52,7 @@ function TicketData({ guest, configData }) {
               <li style={{ textTransform: 'uppercase' }}>
                 Dalam rangka mematuhi protokol kesehatan,
                 <span style={{ color: '#f14e95', textTransform: 'uppercase' }}>
-                  {` 1 undangan hanya berlaku untuk 2 orang tamu`}
+                  {` Wajib mencuci tangan sebelum dan sesudah acara`}
                 </span>
               </li>
             </ul>
