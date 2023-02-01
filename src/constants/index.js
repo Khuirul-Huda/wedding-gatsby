@@ -7,6 +7,6 @@ export const GOOGLE_MAPS_LINK = `https://www.google.com/maps/place/SMA+Negeri+1+
 /**
  * Wedding time
  */
-export const EPOCH_START_EVENT = 1675671300;
-export const EPOCH_END_EVENT = 1675696500;
-export const UTC_WEDDING_TIME = '2023-02-06:04:00:00Z';
+export const EPOCH_START_EVENT = 1675646100;
+export const EPOCH_END_EVENT = 1675671300;
+export const UTC_WEDDING_TIME = '2023-02-06:01:30:00Z';
