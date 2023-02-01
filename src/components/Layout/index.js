@@ -3,12 +3,12 @@ import React, { Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import { node } from 'prop-types';
 
-import Favicon from '@assets/images/dinda-indra.png';
+import Favicon from '@assets/images/logoo.png';
 import '@assets/css/icomoon.css';
 import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
-const IMAGE_URL = `https://wedding.mipansmane.ga/static/dl-formal.jpg`;
+const IMAGE_URL = `https://wedding.mipansmane.ga/static/title-img.jpg`;
 const META_DESCRIPTION = `Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan. - Daffa & Luna`;
 
 function MainLayout({ children }) {
