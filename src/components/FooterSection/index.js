@@ -52,7 +52,7 @@ function FooterSection({ isInvitation }) {
                   </a>
                 </small>
                 <small className="block">
-                  Made with ReactJS. Forked from{' '} <a href="https://raw.githubusercontent.com/idindrakusuma/thekusuma/master/LICENSE" target="_blank" rel="noreferrer">
+                  Forked from{' '} <a href="https://raw.githubusercontent.com/idindrakusuma/thekusuma/master/LICENSE" target="_blank" rel="noreferrer">
                   MIT Licensed OSS
                   </a>
                 </small>
