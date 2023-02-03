@@ -1,6 +1,6 @@
 [{
     "code": "MIPAN-2023",
-    "name": "Teman - teman",
+    "name": "Teman MIPA Satu",
     "desc": "Teman Naufal dan Luna",
     "shift": 1,
     "isAttended": "",
@@ -11,8 +11,8 @@
   },
   {
     "code": "MIPAN-12358",
-    "name": "Bapak-Ibu Guru",
-    "desc": "Guru SMAN 1 Ambarawa",
+    "name": "Penerima Undangan",
+    "desc": "SMAN 1 Ambarawa",
     "shift": 1,
     "isAttended": "",
     "updatedBy": "",
