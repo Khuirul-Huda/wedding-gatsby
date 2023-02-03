@@ -64,7 +64,7 @@ function GenerateLink() {
           <div class="checkbox">
             <label>
               <input type="checkbox" checked={isInvitation} onClick={() => setIsInvitation(!isInvitation)} /> Tipe
-              Invitation (Datang offline)
+              Klik disini untuk menambah kode QR pada undangan. Untuk menambah daftar tamu yang akan diundang pc Huda aja!
             </label>
           </div>
           <button type="submit" class="btn btn-primary" onClick={() => setShowResult(true)}>
@@ -147,7 +147,7 @@ function GenerateLink() {
   return (
     <div>
       <h2 className="title">Generator of Link Invitation</h2>
-      <h3 className="title__sub">Dinda & Indra Wedding</h3>
+      <h3 className="title__sub">Daffa & Luna Wedding</h3>
 
       {loading && <h4 style={{ textAlign: 'center' }}>Memuat data..</h4>}
 
@@ -156,10 +156,10 @@ function GenerateLink() {
           <div className="row">
             <div className="col-md-4 col-md-offset-4">
               <div class="form-group">
-                <label for="exampleInputEmail1">Tipe Link</label>
+                <label for="exampleInputEmail1">Jenis Undangan</label>
                 <select class="form-control" value={type} onChange={handleChange}>
-                  <option value={PERSONAL}>Individu</option>
-                  <option value={ALL}>Semua Undangan</option>
+                  <option value={PERSONAL}>Undangan Virtual</option>
+                  <option value={ALL}>Undangan Hadir</option>
                 </select>
               </div>
               {renderContentType()}
