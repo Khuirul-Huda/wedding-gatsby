@@ -63,8 +63,8 @@ function GenerateLink() {
         <Fragment>
           <div class="checkbox">
             <label>
-              <input type="checkbox" checked={isInvitation} onClick={() => setIsInvitation(!isInvitation)} /> Tipe
-              Klik disini untuk menambah kode QR pada undangan. Untuk menambah daftar tamu yang akan diundang pc Huda aja!
+              <input type="checkbox" checked={isInvitation} onClick={() => setIsInvitation(!isInvitation)} /> 
+             Klik centang disamping kiri ini ya kak untuk menambah kode QR pada undangan. Kalo mau nambah daftar tamu yang akan diundang (hadir offline) pc Huda aja!
             </label>
           </div>
           <button type="submit" class="btn btn-primary" onClick={() => setShowResult(true)}>
