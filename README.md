@@ -1,6 +1,14 @@
 # Daffa & Luna Wedding Website
 
+---notice
+
 Forked from [idindrakusuma/thekusuma](https://github.com/idindrakusuma/thekusuma/blob/master/LICENSE)
+
+
+`All images related to Daffa and Luna are personal images and may not be used in any project without permission`
+
+---end notice
+
 
 Features:
 - Landing Page, with features like:
