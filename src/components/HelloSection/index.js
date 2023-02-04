@@ -53,7 +53,7 @@ function HelloSection({ isInvitation }) {
               <div className="desc-bride">
                 <h3 className="main-font">Naufal Daffa Putra Fadhila S.Si</h3>
                 <p className="parent-name">
-                  Putra Bapak Rahmat Anwar Najib Lc. MA <br />& Ibu Aisyha Whinandha Putry S.Pd
+                  Putra Bapak Muhammad Gibran Arafat S.T <br />& Ibu Aisyha Whinandha Putry S.Pd
                 </p>
               </div>
             </div>
