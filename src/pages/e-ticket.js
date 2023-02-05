@@ -33,8 +33,8 @@ function ETicket({ location }) {
         }
       }
 
-      alert(`Maaf, Kode data ${guestCode} tidak ditemukan. Mohon di cek lagi..`);
-      window.location.assign('https://thekusuma.com');
+      alert(`Maaf, Kode undangan ${guestCode} tidak ditemukan. Mohon di cek lagi..`);
+      window.location.assign('https://wedding.mipansmane.ga');
     },
     [data, nameEticket, value],
   );

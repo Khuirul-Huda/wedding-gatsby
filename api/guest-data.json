@@ -19,5 +19,50 @@
     "isExchanged": "",
     "exchangedAt": "",
     "exchangedBy": ""
+  },
+  {
+    "code": "MIPAN-U6223",
+    "name": "Yth. Pak Ulil",
+    "desc": "Guru PAI",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
+  },
+  {
+    "code": "MIPAN-M1372",
+    "name": "Yth. Pak Mochtar",
+    "desc": "Guru Seni Budaya",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
+  },
+  {
+    "code": "MIPAN-FR123",
+    "name": "Madame Reni",
+    "desc": "Guru Bahasa Prancis",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
+  },
+  {
+    "code": "MIPAN-MI237",
+    "name": "Yth. Bu Mufrikati",
+    "desc": "Guru Sejarah Indonesia",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
   }
+
 ]
