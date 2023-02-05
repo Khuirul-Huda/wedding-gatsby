@@ -63,6 +63,17 @@
     "isExchanged": "",
     "exchangedAt": "",
     "exchangedBy": ""
+  },
+  {
+    "code": "PAK-EKA123",
+    "name": "Yth. Pak Eka",
+    "desc": "Wali Kelas XII MIPA 1",
+    "shift": 1,
+    "isAttended": "",
+    "updatedBy": "",
+    "isExchanged": "",
+    "exchangedAt": "",
+    "exchangedBy": ""
   }
 
 ]
