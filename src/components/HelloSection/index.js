@@ -34,9 +34,9 @@ function HelloSection({ isInvitation }) {
                 <img src={Luna} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-groom">
-                <h3 className="main-font">Ariesta Luna Jelita Putri S.Si</h3>
+                <h3 className="main-font">Ariesta Luna Jelita Putri</h3>
                 <p className="parent-name parent-name__top">
-                  Putri Bapak Rio Noviansyach Sutomo S.Pd<br />& Ibu Revalia Fadhilla S.Psi
+                  Putri Bapak Rio Noviansyach Sutomo<br />& Ibu Revalia Fadhilla
                 </p>
               </div>
             </div>
@@ -51,9 +51,9 @@ function HelloSection({ isInvitation }) {
                 <img src={Daffa} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-bride">
-                <h3 className="main-font">Naufal Daffa Putra Fadhila S.Si</h3>
+                <h3 className="main-font">Naufal Daffa Putra Fadhila</h3>
                 <p className="parent-name">
-                  Putra Bapak Muhammad Gibran Arafat S.T <br />& Ibu Aisyha Whinandha Putry S.Pd
+                  Putra Bapak Muhammad Gibran Arafat <br />& Ibu Aisyha Whinandha Putry
                 </p>
               </div>
             </div>
